@@ -1,0 +1,26 @@
+{
+  "took" : 0,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "country_ag" : {
+      "doc_count" : 1400,
+      "avg_age" : {
+        "value" : 31.1294964028777
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+GET /test_users/_search
+{
+  "size": 0,
+  "aggs": {
+    "countries": {
+      "terms": {
+        "field": "Country.keyword" 
+      },
+      "aggs": {
+        "cities": {
+          "terms": {
+            "field": "City.keyword"
+          },
+          "aggs": {
+            "average_age": {
+              "avg": {
+                "field": "Age"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

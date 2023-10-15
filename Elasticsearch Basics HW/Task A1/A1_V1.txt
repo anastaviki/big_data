@@ -1,0 +1,15 @@
+GET /test_users/_search
+{
+  "query": {
+    "term": {
+      "Country.keyword": "sweden"
+    }
+  },
+  "aggs": {
+    "average_age": {
+      "avg": {
+        "field": "Age"
+      }
+    }
+  }
+}

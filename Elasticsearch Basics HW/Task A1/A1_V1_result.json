@@ -1,0 +1,167 @@
+{
+  "took" : 1,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1400,
+      "relation" : "eq"
+    },
+    "max_score" : 5.2751155,
+    "hits" : [
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "171753",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:50.103Z",
+          "State" : "stockholm",
+          "Country" : "sweden",
+          "City" : "stockholm",
+          "User-ID" : "171753",
+          "Location" : "stockholm, stockholm, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172033",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.565Z",
+          "State" : "uppland",
+          "Country" : "sweden",
+          "City" : "uppsala",
+          "User-ID" : "172033",
+          "Location" : "uppsala, uppland, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172371",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.666Z",
+          "State" : "n/a",
+          "Country" : "sweden",
+          "City" : "mora",
+          "User-ID" : "172371",
+          "Location" : "mora, n/a, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172413",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.666Z",
+          "State" : "n/a",
+          "Country" : "sweden",
+          "City" : "stockholm",
+          "User-ID" : "172413",
+          "Location" : "stockholm, n/a, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172401",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.666Z",
+          "State" : "svealand",
+          "Country" : "sweden",
+          "City" : "knivsta",
+          "Age" : 56,
+          "User-ID" : "172401",
+          "Location" : "knivsta, svealand, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172426",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.727Z",
+          "State" : "n/a",
+          "Country" : "sweden",
+          "City" : "stockholm",
+          "User-ID" : "172426",
+          "Location" : "stockholm, n/a, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172470",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.729Z",
+          "State" : "n/a",
+          "Country" : "sweden",
+          "City" : "uppsala",
+          "Age" : 42,
+          "User-ID" : "172470",
+          "Location" : "uppsala, n/a, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172763",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.827Z",
+          "State" : "västra götaland",
+          "Country" : "sweden",
+          "City" : "göteborg",
+          "Age" : 35,
+          "User-ID" : "172763",
+          "Location" : "göteborg, västra götaland, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "172812",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.828Z",
+          "State" : "västra götaland",
+          "Country" : "sweden",
+          "City" : "göteborg",
+          "User-ID" : "172812",
+          "Location" : "göteborg, västra götaland, sweden"
+        }
+      },
+      {
+        "_index" : "test_users",
+        "_type" : "_doc",
+        "_id" : "173097",
+        "_score" : 5.2751155,
+        "_source" : {
+          "@timestamp" : "2023-10-15T12:40:51.969Z",
+          "State" : "halland",
+          "Country" : "sweden",
+          "City" : "falkenberg",
+          "User-ID" : "173097",
+          "Location" : "falkenberg, halland, sweden"
+        }
+      }
+    ]
+  },
+  "aggregations" : {
+    "average_age" : {
+      "value" : 31.1294964028777
+    }
+  }
+}

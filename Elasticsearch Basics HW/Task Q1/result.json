@@ -1,0 +1,419 @@
+{
+  "took" : 2,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : 0.41888,
+    "hits" : [
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "YGxpM4sBbU-Tn7-os4-X",
+        "_score" : 0.41888,
+        "_source" : {
+          "book_author" : "Harold S. Kushner",
+          "User-ID" : "249269",
+          "image_URL_M" : "http://images.amazon.com/images/P/0671551817.01.MZZZZZZZ.jpg",
+          "publisher" : "Pocket",
+          "State" : "florida",
+          "Book-Rating" : 8,
+          "Country" : "usa, usa",
+          "@timestamp" : "2023-10-15T12:57:26.464Z",
+          "publication_year" : 1987,
+          "City" : "dunnellon",
+          "ISBN" : "0671551817",
+          "book_title" : "When All You've Ever Wanted Isn't Enough"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "_lxdM4sBbU-Tn7-o2K8W",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "C. Laforet",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0195009428.01.MZZZZZZZ.jpg",
+          "publisher" : "Oxford University Press",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:22.506Z",
+          "publication_year" : 1958,
+          "City" : "gilbert",
+          "ISBN" : "0195009428",
+          "book_title" : "Nada (Spanish Language Edition)"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "_1xdM4sBbU-Tn7-o2K8W",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Bernhard W. Anderson",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0195283554.01.MZZZZZZZ.jpg",
+          "publisher" : "Oxford University Press",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.283Z",
+          "publication_year" : 1991,
+          "City" : "gilbert",
+          "ISBN" : "0195283554",
+          "book_title" : "New Oxford Annotated Bible: An Ecumenical Study Bible Completely Revised and Enlarged/New Revised Standard Version"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "AFxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "William Bridges",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0201000822.01.MZZZZZZZ.jpg",
+          "publisher" : "Perseus Books Group",
+          "State" : "arizona",
+          "Book-Rating" : 10,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.283Z",
+          "publication_year" : 1980,
+          "City" : "gilbert",
+          "ISBN" : "0201000822",
+          "book_title" : "Transitions: Making Sense of Life's Changes"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "AVxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Rick Warren",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0310205719.01.MZZZZZZZ.jpg",
+          "publisher" : "Zondervan Publishing Company",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.283Z",
+          "publication_year" : 2002,
+          "City" : "gilbert",
+          "ISBN" : "0310205719",
+          "book_title" : "The Purpose-Driven Life: What on Earth Am I Here For?"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "AlxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Mark Mittelberg",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0310221498.01.MZZZZZZZ.jpg",
+          "publisher" : "Zondervan Publishing Company",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 2000,
+          "City" : "gilbert",
+          "ISBN" : "0310221498",
+          "book_title" : "Building a Contagious Church"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "A1xdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Weldon Phillip Keller",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0310268001.01.MZZZZZZZ.jpg",
+          "publisher" : "Zondervan",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 1978,
+          "City" : "gilbert",
+          "ISBN" : "0310268001",
+          "book_title" : "A Shepherd Looks at the Good Shepherd and His Sheep"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "BFxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "William Eleazar Barton",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0310396514.01.MZZZZZZZ.jpg",
+          "publisher" : "Zondervan",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 1990,
+          "City" : "gilbert",
+          "ISBN" : "0310396514",
+          "book_title" : "Millionaire and the Scrublady and Other Parables"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "BVxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "G. Archer",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0310435706.01.MZZZZZZZ.jpg",
+          "publisher" : "Zondervan",
+          "State" : "arizona",
+          "Book-Rating" : 10,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 1982,
+          "City" : "gilbert",
+          "ISBN" : "0310435706",
+          "book_title" : "Encyclopedia of Bible Difficulties, An"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "BlxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Rick Warren",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0310803063.01.MZZZZZZZ.jpg",
+          "publisher" : "Inspirio",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 2002,
+          "City" : "gilbert",
+          "ISBN" : "0310803063",
+          "book_title" : "Purpose-Driven® Life Journal The"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "B1xdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Amelie Nothomb",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0312302487.01.MZZZZZZZ.jpg",
+          "publisher" : "St. Martin's Press",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 2003,
+          "City" : "gilbert",
+          "ISBN" : "0312302487",
+          "book_title" : "The Character of Rain: A Novel"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "CFxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Joan D. Vinge",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0312944691.01.MZZZZZZZ.jpg",
+          "publisher" : "Bluejay Books",
+          "State" : "arizona",
+          "Book-Rating" : 8,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 1984,
+          "City" : "gilbert",
+          "ISBN" : "0312944691",
+          "book_title" : "World's End"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "CVxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Mary Hunt",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0312950934.01.MZZZZZZZ.jpg",
+          "publisher" : "St. Martin's Press",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.284Z",
+          "publication_year" : 1993,
+          "City" : "gilbert",
+          "ISBN" : "0312950934",
+          "book_title" : "The Best of the Cheapskate Monthly: Simple Tips for Living Lean"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "ClxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Muriel Gray",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0312961006.01.MZZZZZZZ.jpg",
+          "publisher" : "Tor Books",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 1997,
+          "City" : "gilbert",
+          "ISBN" : "0312961006",
+          "book_title" : "The Trickster"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "C1xdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Keith Ablow",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0312965966.01.MZZZZZZZ.jpg",
+          "publisher" : "St. Martin's Paperbacks",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 1998,
+          "City" : "gilbert",
+          "ISBN" : "0312965966",
+          "book_title" : "Denial (Frank Clevenger)"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "DFxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Janet Evanovich",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0312966091.01.MZZZZZZZ.jpg",
+          "publisher" : "St. Martin's Paperbacks",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 1998,
+          "City" : "gilbert",
+          "ISBN" : "0312966091",
+          "book_title" : "Three To Get Deadly : A Stephanie Plum Novel (A Stephanie Plum Novel)"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "DVxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Janet Evanovich",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/031298328X.01.MZZZZZZZ.jpg",
+          "publisher" : "St. Martin's Paperbacks",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 2003,
+          "City" : "gilbert",
+          "ISBN" : "031298328X",
+          "book_title" : "Full Tilt (Janet Evanovich's Full Series)"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "DlxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Cleveland Amory",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0316037451.01.MZZZZZZZ.jpg",
+          "publisher" : "Little, Brown",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 1991,
+          "City" : "gilbert",
+          "ISBN" : "0316037451",
+          "book_title" : "The Cat and the Curmudgeon"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "D1xdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Alice Sebold",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0316096199.01.MZZZZZZZ.jpg",
+          "publisher" : "Back Bay Books",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 2002,
+          "City" : "gilbert",
+          "ISBN" : "0316096199",
+          "book_title" : "Lucky : A Memoir"
+        }
+      },
+      {
+        "_index" : "test_rating",
+        "_type" : "_doc",
+        "_id" : "EFxdM4sBbU-Tn7-o2LAW",
+        "_score" : 0.38952354,
+        "_source" : {
+          "book_author" : "Carolyn Parkhurst",
+          "User-ID" : "277427",
+          "image_URL_M" : "http://images.amazon.com/images/P/0316168688.01.MZZZZZZZ.jpg",
+          "publisher" : "Little, Brown",
+          "State" : "arizona",
+          "Book-Rating" : 0,
+          "Country" : "usa",
+          "@timestamp" : "2023-10-15T12:44:25.285Z",
+          "publication_year" : 2003,
+          "City" : "gilbert",
+          "ISBN" : "0316168688",
+          "book_title" : "The Dogs of Babel (Today Show Book Club #12)"
+        }
+      }
+    ]
+  }
+}

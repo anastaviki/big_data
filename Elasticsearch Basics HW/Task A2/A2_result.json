@@ -1,0 +1,826 @@
+{
+  "took" : 208,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10000,
+      "relation" : "gte"
+    },
+    "max_score" : null,
+    "hits" : [ ]
+  },
+  "aggregations" : {
+    "countries" : {
+      "doc_count_error_upper_bound" : 0,
+      "sum_other_doc_count" : 31462,
+      "buckets" : [
+        {
+          "key" : "usa",
+          "doc_count" : 139406,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 126644,
+            "buckets" : [
+              {
+                "key" : "portland",
+                "doc_count" : 1809,
+                "average_age" : {
+                  "value" : 37.48219178082192
+                }
+              },
+              {
+                "key" : "chicago",
+                "doc_count" : 1536,
+                "average_age" : {
+                  "value" : 35.75639599555061
+                }
+              },
+              {
+                "key" : "seattle",
+                "doc_count" : 1494,
+                "average_age" : {
+                  "value" : 36.865512649800266
+                }
+              },
+              {
+                "key" : "new york",
+                "doc_count" : 1423,
+                "average_age" : {
+                  "value" : 35.17696629213483
+                }
+              },
+              {
+                "key" : "san diego",
+                "doc_count" : 1291,
+                "average_age" : {
+                  "value" : 39.68600682593857
+                }
+              },
+              {
+                "key" : "san francisco",
+                "doc_count" : 1275,
+                "average_age" : {
+                  "value" : 35.801358234295414
+                }
+              },
+              {
+                "key" : "houston",
+                "doc_count" : 1205,
+                "average_age" : {
+                  "value" : 38.2713567839196
+                }
+              },
+              {
+                "key" : "los angeles",
+                "doc_count" : 1013,
+                "average_age" : {
+                  "value" : 33.46415094339623
+                }
+              },
+              {
+                "key" : "austin",
+                "doc_count" : 1008,
+                "average_age" : {
+                  "value" : 35.045112781954884
+                }
+              },
+              {
+                "key" : "st. louis",
+                "doc_count" : 708,
+                "average_age" : {
+                  "value" : 36.90833333333333
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "canada",
+          "doc_count" : 21599,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 12269,
+            "buckets" : [
+              {
+                "key" : "toronto",
+                "doc_count" : 2270,
+                "average_age" : {
+                  "value" : 33.53746978243352
+                }
+              },
+              {
+                "key" : "vancouver",
+                "doc_count" : 1374,
+                "average_age" : {
+                  "value" : 35.474074074074075
+                }
+              },
+              {
+                "key" : "ottawa",
+                "doc_count" : 1252,
+                "average_age" : {
+                  "value" : 34.48185776487663
+                }
+              },
+              {
+                "key" : "calgary",
+                "doc_count" : 992,
+                "average_age" : {
+                  "value" : 36.146484375
+                }
+              },
+              {
+                "key" : "victoria",
+                "doc_count" : 809,
+                "average_age" : {
+                  "value" : 36.19420289855073
+                }
+              },
+              {
+                "key" : "edmonton",
+                "doc_count" : 725,
+                "average_age" : {
+                  "value" : 34.93532338308458
+                }
+              },
+              {
+                "key" : "montreal",
+                "doc_count" : 644,
+                "average_age" : {
+                  "value" : 32.609375
+                }
+              },
+              {
+                "key" : "winnipeg",
+                "doc_count" : 490,
+                "average_age" : {
+                  "value" : 32.920138888888886
+                }
+              },
+              {
+                "key" : "halifax",
+                "doc_count" : 396,
+                "average_age" : {
+                  "value" : 32.1965811965812
+                }
+              },
+              {
+                "key" : "london",
+                "doc_count" : 378,
+                "average_age" : {
+                  "value" : 33.81159420289855
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "united kingdom",
+          "doc_count" : 18306,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 11538,
+            "buckets" : [
+              {
+                "key" : "london",
+                "doc_count" : 3640,
+                "average_age" : {
+                  "value" : 32.35079225352113
+                }
+              },
+              {
+                "key" : "manchester",
+                "doc_count" : 633,
+                "average_age" : {
+                  "value" : 32.37444933920705
+                }
+              },
+              {
+                "key" : "edinburgh",
+                "doc_count" : 420,
+                "average_age" : {
+                  "value" : 33.23552123552123
+                }
+              },
+              {
+                "key" : "glasgow",
+                "doc_count" : 396,
+                "average_age" : {
+                  "value" : 31.99628252788104
+                }
+              },
+              {
+                "key" : "bristol",
+                "doc_count" : 332,
+                "average_age" : {
+                  "value" : 33.666666666666664
+                }
+              },
+              {
+                "key" : "birmingham",
+                "doc_count" : 296,
+                "average_age" : {
+                  "value" : 33.76767676767677
+                }
+              },
+              {
+                "key" : "cambridge",
+                "doc_count" : 273,
+                "average_age" : {
+                  "value" : 29.798941798941797
+                }
+              },
+              {
+                "key" : "nottingham",
+                "doc_count" : 269,
+                "average_age" : {
+                  "value" : 34.18681318681319
+                }
+              },
+              {
+                "key" : "norwich",
+                "doc_count" : 261,
+                "average_age" : {
+                  "value" : 34.97826086956522
+                }
+              },
+              {
+                "key" : "brighton",
+                "doc_count" : 248,
+                "average_age" : {
+                  "value" : 32.339285714285715
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "germany",
+          "doc_count" : 17019,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 12244,
+            "buckets" : [
+              {
+                "key" : "berlin",
+                "doc_count" : 1251,
+                "average_age" : {
+                  "value" : 32.35121951219512
+                }
+              },
+              {
+                "key" : "hamburg",
+                "doc_count" : 965,
+                "average_age" : {
+                  "value" : 34.132013201320134
+                }
+              },
+              {
+                "key" : "stuttgart",
+                "doc_count" : 389,
+                "average_age" : {
+                  "value" : 33.909574468085104
+                }
+              },
+              {
+                "key" : "munich",
+                "doc_count" : 356,
+                "average_age" : {
+                  "value" : 33.370892018779344
+                }
+              },
+              {
+                "key" : "köln",
+                "doc_count" : 354,
+                "average_age" : {
+                  "value" : 31.865116279069767
+                }
+              },
+              {
+                "key" : "münchen",
+                "doc_count" : 339,
+                "average_age" : {
+                  "value" : 31.51528384279476
+                }
+              },
+              {
+                "key" : "bonn",
+                "doc_count" : 308,
+                "average_age" : {
+                  "value" : 31.454545454545453
+                }
+              },
+              {
+                "key" : "cologne",
+                "doc_count" : 297,
+                "average_age" : {
+                  "value" : 29.045454545454547
+                }
+              },
+              {
+                "key" : "hannover",
+                "doc_count" : 267,
+                "average_age" : {
+                  "value" : 32.90449438202247
+                }
+              },
+              {
+                "key" : "frankfurt",
+                "doc_count" : 249,
+                "average_age" : {
+                  "value" : 33.7625
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "spain",
+          "doc_count" : 13095,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 6524,
+            "buckets" : [
+              {
+                "key" : "barcelona",
+                "doc_count" : 2562,
+                "average_age" : {
+                  "value" : 31.363710666121783
+                }
+              },
+              {
+                "key" : "madrid",
+                "doc_count" : 1867,
+                "average_age" : {
+                  "value" : 30.433408577878104
+                }
+              },
+              {
+                "key" : "valencia",
+                "doc_count" : 513,
+                "average_age" : {
+                  "value" : 29.767206477732792
+                }
+              },
+              {
+                "key" : "zaragoza",
+                "doc_count" : 364,
+                "average_age" : {
+                  "value" : 29.70639534883721
+                }
+              },
+              {
+                "key" : "sevilla",
+                "doc_count" : 362,
+                "average_age" : {
+                  "value" : 28.521246458923514
+                }
+              },
+              {
+                "key" : "bilbao",
+                "doc_count" : 240,
+                "average_age" : {
+                  "value" : 30.27927927927928
+                }
+              },
+              {
+                "key" : "valladolid",
+                "doc_count" : 204,
+                "average_age" : {
+                  "value" : 28.46
+                }
+              },
+              {
+                "key" : "vigo",
+                "doc_count" : 167,
+                "average_age" : {
+                  "value" : 31.8
+                }
+              },
+              {
+                "key" : "granada",
+                "doc_count" : 147,
+                "average_age" : {
+                  "value" : 30.479166666666668
+                }
+              },
+              {
+                "key" : "alicante",
+                "doc_count" : 145,
+                "average_age" : {
+                  "value" : 30.79136690647482
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "australia",
+          "doc_count" : 11728,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 5193,
+            "buckets" : [
+              {
+                "key" : "sydney",
+                "doc_count" : 1848,
+                "average_age" : {
+                  "value" : 28.466397849462364
+                }
+              },
+              {
+                "key" : "melbourne",
+                "doc_count" : 1766,
+                "average_age" : {
+                  "value" : 32.44927536231884
+                }
+              },
+              {
+                "key" : "brisbane",
+                "doc_count" : 773,
+                "average_age" : {
+                  "value" : 31.682967959527826
+                }
+              },
+              {
+                "key" : "perth",
+                "doc_count" : 695,
+                "average_age" : {
+                  "value" : 32.69047619047619
+                }
+              },
+              {
+                "key" : "adelaide",
+                "doc_count" : 660,
+                "average_age" : {
+                  "value" : 35.31918819188192
+                }
+              },
+              {
+                "key" : "canberra",
+                "doc_count" : 425,
+                "average_age" : {
+                  "value" : 30.946540880503143
+                }
+              },
+              {
+                "key" : "hobart",
+                "doc_count" : 100,
+                "average_age" : {
+                  "value" : 33.829268292682926
+                }
+              },
+              {
+                "key" : "gold coast",
+                "doc_count" : 96,
+                "average_age" : {
+                  "value" : 29.57894736842105
+                }
+              },
+              {
+                "key" : "newcastle",
+                "doc_count" : 92,
+                "average_age" : {
+                  "value" : 32.23287671232877
+                }
+              },
+              {
+                "key" : "geelong",
+                "doc_count" : 80,
+                "average_age" : {
+                  "value" : 31.166666666666668
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "italy",
+          "doc_count" : 11239,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 6295,
+            "buckets" : [
+              {
+                "key" : "milano",
+                "doc_count" : 1324,
+                "average_age" : {
+                  "value" : 32.82504288164665
+                }
+              },
+              {
+                "key" : "roma",
+                "doc_count" : 986,
+                "average_age" : {
+                  "value" : 32.784188034188034
+                }
+              },
+              {
+                "key" : "rome",
+                "doc_count" : 687,
+                "average_age" : {
+                  "value" : 32.48253968253968
+                }
+              },
+              {
+                "key" : "torino",
+                "doc_count" : 382,
+                "average_age" : {
+                  "value" : 31.3463687150838
+                }
+              },
+              {
+                "key" : "bologna",
+                "doc_count" : 344,
+                "average_age" : {
+                  "value" : 30.840236686390533
+                }
+              },
+              {
+                "key" : "milan",
+                "doc_count" : 336,
+                "average_age" : {
+                  "value" : 31.930555555555557
+                }
+              },
+              {
+                "key" : "genova",
+                "doc_count" : 269,
+                "average_age" : {
+                  "value" : 32.532051282051285
+                }
+              },
+              {
+                "key" : "firenze",
+                "doc_count" : 268,
+                "average_age" : {
+                  "value" : 32.739837398373986
+                }
+              },
+              {
+                "key" : "padova",
+                "doc_count" : 189,
+                "average_age" : {
+                  "value" : 29.628865979381445
+                }
+              },
+              {
+                "key" : "napoli",
+                "doc_count" : 159,
+                "average_age" : {
+                  "value" : 30.17948717948718
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "france",
+          "doc_count" : 3439,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 1590,
+            "buckets" : [
+              {
+                "key" : "paris",
+                "doc_count" : 1097,
+                "average_age" : {
+                  "value" : 30.12676056338028
+                }
+              },
+              {
+                "key" : "lyon",
+                "doc_count" : 168,
+                "average_age" : {
+                  "value" : 28.05128205128205
+                }
+              },
+              {
+                "key" : "strasbourg",
+                "doc_count" : 115,
+                "average_age" : {
+                  "value" : 28.0
+                }
+              },
+              {
+                "key" : "lille",
+                "doc_count" : 86,
+                "average_age" : {
+                  "value" : 26.897435897435898
+                }
+              },
+              {
+                "key" : "toulouse",
+                "doc_count" : 85,
+                "average_age" : {
+                  "value" : 27.666666666666668
+                }
+              },
+              {
+                "key" : "nantes",
+                "doc_count" : 73,
+                "average_age" : {
+                  "value" : 27.3125
+                }
+              },
+              {
+                "key" : "rennes",
+                "doc_count" : 70,
+                "average_age" : {
+                  "value" : 29.883333333333333
+                }
+              },
+              {
+                "key" : "marseille",
+                "doc_count" : 66,
+                "average_age" : {
+                  "value" : 31.476923076923075
+                }
+              },
+              {
+                "key" : "bordeaux",
+                "doc_count" : 49,
+                "average_age" : {
+                  "value" : 28.76086956521739
+                }
+              },
+              {
+                "key" : "grenoble",
+                "doc_count" : 40,
+                "average_age" : {
+                  "value" : 29.0
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "portugal",
+          "doc_count" : 3310,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 1319,
+            "buckets" : [
+              {
+                "key" : "lisboa",
+                "doc_count" : 772,
+                "average_age" : {
+                  "value" : 28.986463620981386
+                }
+              },
+              {
+                "key" : "lisbon",
+                "doc_count" : 382,
+                "average_age" : {
+                  "value" : 30.0
+                }
+              },
+              {
+                "key" : "porto",
+                "doc_count" : 368,
+                "average_age" : {
+                  "value" : 28.881944444444443
+                }
+              },
+              {
+                "key" : "coimbra",
+                "doc_count" : 125,
+                "average_age" : {
+                  "value" : 25.67924528301887
+                }
+              },
+              {
+                "key" : "aveiro",
+                "doc_count" : 85,
+                "average_age" : {
+                  "value" : 25.970588235294116
+                }
+              },
+              {
+                "key" : "braga",
+                "doc_count" : 81,
+                "average_age" : {
+                  "value" : 25.83582089552239
+                }
+              },
+              {
+                "key" : "almada",
+                "doc_count" : 57,
+                "average_age" : {
+                  "value" : 27.127659574468087
+                }
+              },
+              {
+                "key" : "amadora",
+                "doc_count" : 49,
+                "average_age" : {
+                  "value" : 30.59090909090909
+                }
+              },
+              {
+                "key" : "leiria",
+                "doc_count" : 38,
+                "average_age" : {
+                  "value" : 27.03030303030303
+                }
+              },
+              {
+                "key" : "matosinhos",
+                "doc_count" : 34,
+                "average_age" : {
+                  "value" : 27.357142857142858
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key" : "new zealand",
+          "doc_count" : 3072,
+          "cities" : {
+            "doc_count_error_upper_bound" : 0,
+            "sum_other_doc_count" : 807,
+            "buckets" : [
+              {
+                "key" : "christchurch",
+                "doc_count" : 753,
+                "average_age" : {
+                  "value" : 34.63122171945702
+                }
+              },
+              {
+                "key" : "auckland",
+                "doc_count" : 573,
+                "average_age" : {
+                  "value" : 33.422764227642276
+                }
+              },
+              {
+                "key" : "wellington",
+                "doc_count" : 269,
+                "average_age" : {
+                  "value" : 35.247191011235955
+                }
+              },
+              {
+                "key" : "dunedin",
+                "doc_count" : 233,
+                "average_age" : {
+                  "value" : 31.98936170212766
+                }
+              },
+              {
+                "key" : "palmerston north",
+                "doc_count" : 169,
+                "average_age" : {
+                  "value" : 39.0
+                }
+              },
+              {
+                "key" : "hamilton",
+                "doc_count" : 95,
+                "average_age" : {
+                  "value" : 29.47457627118644
+                }
+              },
+              {
+                "key" : "tauranga",
+                "doc_count" : 55,
+                "average_age" : {
+                  "value" : 32.91891891891892
+                }
+              },
+              {
+                "key" : "new plymouth",
+                "doc_count" : 48,
+                "average_age" : {
+                  "value" : 36.973684210526315
+                }
+              },
+              {
+                "key" : "rotorua",
+                "doc_count" : 36,
+                "average_age" : {
+                  "value" : 28.36
+                }
+              },
+              {
+                "key" : "nelson",
+                "doc_count" : 34,
+                "average_age" : {
+                  "value" : 38.95238095238095
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
